@@ -363,7 +363,7 @@ span{
 }
 .service-box{
     background-color: var(--main-color);
-    height: 330px;
+    height: auto;
     border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
@@ -378,8 +378,7 @@ span{
 .service-box .service-info{
     display: flex;
     flex-direction: column;
-    text-align: left;
-    max-height: 220px;
+    text-align: left; 
     justify-content: left;
     align-items: baseline;
     padding: 2rem 2rem;
@@ -392,14 +391,13 @@ span{
 .service-info p{
     font-size: 1.6rem;
     font-weight: 600;
-    max-height: 140px;
     line-height: 1.4;
     margin: auto;
 }
 
 .service-box-small{
     background-color: var(--main-color);
-    height: 250px;
+    height: auto;
     border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
@@ -415,7 +413,7 @@ span{
     display: flex;
     flex-direction: column;
     text-align: left;
-    max-height: 220px;
+    
     justify-content: left;
     align-items: baseline;
     padding: 2rem 2rem;
@@ -427,8 +425,7 @@ span{
 }
 .service-info-small p{
     font-size: 1.6rem;
-    font-weight: 600;
-    max-height: 140px;
+    font-weight: 600;    
     line-height: 1.4;
     margin: auto;
 }
